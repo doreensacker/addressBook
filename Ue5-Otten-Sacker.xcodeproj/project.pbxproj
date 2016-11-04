@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2AE9101C3EA92200984AC9 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE90F1C3EA92200984AC9 /* AddCardViewController.swift */; };
+		DE2AE9121C3ECF0100984AC9 /* AddHobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE9111C3ECF0100984AC9 /* AddHobbyViewController.swift */; };
+		DE32E3321C2983DC00FD1CCD /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32E3301C2983DC00FD1CCD /* AddressBook.swift */; };
+		DE32E3331C2983DC00FD1CCD /* AddressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32E3311C2983DC00FD1CCD /* AddressCard.swift */; };
+		DE620B1D1C3D3A220049B7CC /* EditDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE620B1C1C3D3A220049B7CC /* EditDetailViewController.swift */; };
+		DEA280781C4109DC00744B3D /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA280771C4109DC00744B3D /* AddFriendViewController.swift */; };
+		DEA2807A1C411A5D00744B3D /* DeleteFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA280791C411A5D00744B3D /* DeleteFriendViewController.swift */; };
+		DEDB035D1C19D0AE00CD36DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB035C1C19D0AE00CD36DE /* AppDelegate.swift */; };
+		DEDB03621C19D0AE00CD36DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB03601C19D0AE00CD36DE /* Main.storyboard */; };
+		DEDB03641C19D0AE00CD36DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDB03631C19D0AE00CD36DE /* Assets.xcassets */; };
+		DEDB03671C19D0AE00CD36DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB03651C19D0AE00CD36DE /* LaunchScreen.storyboard */; };
+		DEDB03721C19D0AE00CD36DE /* Ue5_Otten_SackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB03711C19D0AE00CD36DE /* Ue5_Otten_SackerTests.swift */; };
+		DEDB037D1C19D0AE00CD36DE /* Ue5_Otten_SackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB037C1C19D0AE00CD36DE /* Ue5_Otten_SackerUITests.swift */; };
+		DEDB038B1C19D28900CD36DE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB038A1C19D28900CD36DE /* RootViewController.swift */; };
+		DEDB038D1C19D2DF00CD36DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB038C1C19D2DF00CD36DE /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDB036E1C19D0AE00CD36DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDB03511C19D0AE00CD36DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDB03581C19D0AE00CD36DE;
+			remoteInfo = "Ue5-Otten-Sacker";
+		};
+		DEDB03791C19D0AE00CD36DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDB03511C19D0AE00CD36DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDB03581C19D0AE00CD36DE;
+			remoteInfo = "Ue5-Otten-Sacker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2AE90F1C3EA92200984AC9 /* AddCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		DE2AE9111C3ECF0100984AC9 /* AddHobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHobbyViewController.swift; sourceTree = "<group>"; };
+		DE32E3301C2983DC00FD1CCD /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
+		DE32E3311C2983DC00FD1CCD /* AddressCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCard.swift; sourceTree = "<group>"; };
+		DE620B1C1C3D3A220049B7CC /* EditDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetailViewController.swift; sourceTree = "<group>"; };
+		DEA280771C4109DC00744B3D /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		DEA280791C411A5D00744B3D /* DeleteFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteFriendViewController.swift; sourceTree = "<group>"; };
+		DEDB03591C19D0AE00CD36DE /* Ue5-Otten-Sacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ue5-Otten-Sacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB035C1C19D0AE00CD36DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDB03611C19D0AE00CD36DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDB03631C19D0AE00CD36DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDB03661C19D0AE00CD36DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEDB03681C19D0AE00CD36DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDB036D1C19D0AE00CD36DE /* Ue5-Otten-SackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ue5-Otten-SackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB03711C19D0AE00CD36DE /* Ue5_Otten_SackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ue5_Otten_SackerTests.swift; sourceTree = "<group>"; };
+		DEDB03731C19D0AE00CD36DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDB03781C19D0AE00CD36DE /* Ue5-Otten-SackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ue5-Otten-SackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB037C1C19D0AE00CD36DE /* Ue5_Otten_SackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ue5_Otten_SackerUITests.swift; sourceTree = "<group>"; };
+		DEDB037E1C19D0AE00CD36DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDB038A1C19D28900CD36DE /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DEDB038C1C19D2DF00CD36DE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDB03561C19D0AE00CD36DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB036A1C19D0AE00CD36DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB03751C19D0AE00CD36DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDB03501C19D0AE00CD36DE = {
+			isa = PBXGroup;
+			children = (
+				DEDB035B1C19D0AE00CD36DE /* Ue5-Otten-Sacker */,
+				DEDB03701C19D0AE00CD36DE /* Ue5-Otten-SackerTests */,
+				DEDB037B1C19D0AE00CD36DE /* Ue5-Otten-SackerUITests */,
+				DEDB035A1C19D0AE00CD36DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDB035A1C19D0AE00CD36DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB03591C19D0AE00CD36DE /* Ue5-Otten-Sacker.app */,
+				DEDB036D1C19D0AE00CD36DE /* Ue5-Otten-SackerTests.xctest */,
+				DEDB03781C19D0AE00CD36DE /* Ue5-Otten-SackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDB035B1C19D0AE00CD36DE /* Ue5-Otten-Sacker */ = {
+			isa = PBXGroup;
+			children = (
+				DE32E3301C2983DC00FD1CCD /* AddressBook.swift */,
+				DE32E3311C2983DC00FD1CCD /* AddressCard.swift */,
+				DEDB035C1C19D0AE00CD36DE /* AppDelegate.swift */,
+				DEDB038A1C19D28900CD36DE /* RootViewController.swift */,
+				DEDB038C1C19D2DF00CD36DE /* DetailViewController.swift */,
+				DE620B1C1C3D3A220049B7CC /* EditDetailViewController.swift */,
+				DE2AE9111C3ECF0100984AC9 /* AddHobbyViewController.swift */,
+				DEA280771C4109DC00744B3D /* AddFriendViewController.swift */,
+				DEA280791C411A5D00744B3D /* DeleteFriendViewController.swift */,
+				DE2AE90F1C3EA92200984AC9 /* AddCardViewController.swift */,
+				DEDB03601C19D0AE00CD36DE /* Main.storyboard */,
+				DEDB03631C19D0AE00CD36DE /* Assets.xcassets */,
+				DEDB03651C19D0AE00CD36DE /* LaunchScreen.storyboard */,
+				DEDB03681C19D0AE00CD36DE /* Info.plist */,
+			);
+			path = "Ue5-Otten-Sacker";
+			sourceTree = "<group>";
+		};
+		DEDB03701C19D0AE00CD36DE /* Ue5-Otten-SackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB03711C19D0AE00CD36DE /* Ue5_Otten_SackerTests.swift */,
+				DEDB03731C19D0AE00CD36DE /* Info.plist */,
+			);
+			path = "Ue5-Otten-SackerTests";
+			sourceTree = "<group>";
+		};
+		DEDB037B1C19D0AE00CD36DE /* Ue5-Otten-SackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB037C1C19D0AE00CD36DE /* Ue5_Otten_SackerUITests.swift */,
+				DEDB037E1C19D0AE00CD36DE /* Info.plist */,
+			);
+			path = "Ue5-Otten-SackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDB03581C19D0AE00CD36DE /* Ue5-Otten-Sacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB03811C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-Sacker" */;
+			buildPhases = (
+				DEDB03551C19D0AE00CD36DE /* Sources */,
+				DEDB03561C19D0AE00CD36DE /* Frameworks */,
+				DEDB03571C19D0AE00CD36DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ue5-Otten-Sacker";
+			productName = "Ue5-Otten-Sacker";
+			productReference = DEDB03591C19D0AE00CD36DE /* Ue5-Otten-Sacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDB036C1C19D0AE00CD36DE /* Ue5-Otten-SackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB03841C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-SackerTests" */;
+			buildPhases = (
+				DEDB03691C19D0AE00CD36DE /* Sources */,
+				DEDB036A1C19D0AE00CD36DE /* Frameworks */,
+				DEDB036B1C19D0AE00CD36DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDB036F1C19D0AE00CD36DE /* PBXTargetDependency */,
+			);
+			name = "Ue5-Otten-SackerTests";
+			productName = "Ue5-Otten-SackerTests";
+			productReference = DEDB036D1C19D0AE00CD36DE /* Ue5-Otten-SackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEDB03771C19D0AE00CD36DE /* Ue5-Otten-SackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB03871C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-SackerUITests" */;
+			buildPhases = (
+				DEDB03741C19D0AE00CD36DE /* Sources */,
+				DEDB03751C19D0AE00CD36DE /* Frameworks */,
+				DEDB03761C19D0AE00CD36DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDB037A1C19D0AE00CD36DE /* PBXTargetDependency */,
+			);
+			name = "Ue5-Otten-SackerUITests";
+			productName = "Ue5-Otten-SackerUITests";
+			productReference = DEDB03781C19D0AE00CD36DE /* Ue5-Otten-SackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDB03511C19D0AE00CD36DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Doreen;
+				TargetAttributes = {
+					DEDB03581C19D0AE00CD36DE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DEDB036C1C19D0AE00CD36DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DEDB03581C19D0AE00CD36DE;
+					};
+					DEDB03771C19D0AE00CD36DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DEDB03581C19D0AE00CD36DE;
+					};
+				};
+			};
+			buildConfigurationList = DEDB03541C19D0AE00CD36DE /* Build configuration list for PBXProject "Ue5-Otten-Sacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDB03501C19D0AE00CD36DE;
+			productRefGroup = DEDB035A1C19D0AE00CD36DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDB03581C19D0AE00CD36DE /* Ue5-Otten-Sacker */,
+				DEDB036C1C19D0AE00CD36DE /* Ue5-Otten-SackerTests */,
+				DEDB03771C19D0AE00CD36DE /* Ue5-Otten-SackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDB03571C19D0AE00CD36DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB03671C19D0AE00CD36DE /* LaunchScreen.storyboard in Resources */,
+				DEDB03641C19D0AE00CD36DE /* Assets.xcassets in Resources */,
+				DEDB03621C19D0AE00CD36DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB036B1C19D0AE00CD36DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB03761C19D0AE00CD36DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDB03551C19D0AE00CD36DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2AE9101C3EA92200984AC9 /* AddCardViewController.swift in Sources */,
+				DEDB038D1C19D2DF00CD36DE /* DetailViewController.swift in Sources */,
+				DEA2807A1C411A5D00744B3D /* DeleteFriendViewController.swift in Sources */,
+				DE32E3321C2983DC00FD1CCD /* AddressBook.swift in Sources */,
+				DEA280781C4109DC00744B3D /* AddFriendViewController.swift in Sources */,
+				DE2AE9121C3ECF0100984AC9 /* AddHobbyViewController.swift in Sources */,
+				DE32E3331C2983DC00FD1CCD /* AddressCard.swift in Sources */,
+				DE620B1D1C3D3A220049B7CC /* EditDetailViewController.swift in Sources */,
+				DEDB038B1C19D28900CD36DE /* RootViewController.swift in Sources */,
+				DEDB035D1C19D0AE00CD36DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB03691C19D0AE00CD36DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB03721C19D0AE00CD36DE /* Ue5_Otten_SackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB03741C19D0AE00CD36DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB037D1C19D0AE00CD36DE /* Ue5_Otten_SackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDB036F1C19D0AE00CD36DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDB03581C19D0AE00CD36DE /* Ue5-Otten-Sacker */;
+			targetProxy = DEDB036E1C19D0AE00CD36DE /* PBXContainerItemProxy */;
+		};
+		DEDB037A1C19D0AE00CD36DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDB03581C19D0AE00CD36DE /* Ue5-Otten-Sacker */;
+			targetProxy = DEDB03791C19D0AE00CD36DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDB03601C19D0AE00CD36DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB03611C19D0AE00CD36DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDB03651C19D0AE00CD36DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB03661C19D0AE00CD36DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDB037F1C19D0AE00CD36DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDB03801C19D0AE00CD36DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDB03821C19D0AE00CD36DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ue5-Otten-Sacker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-Sacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEDB03831C19D0AE00CD36DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ue5-Otten-Sacker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-Sacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEDB03851C19D0AE00CD36DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ue5-Otten-SackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-SackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ue5-Otten-Sacker.app/Ue5-Otten-Sacker";
+			};
+			name = Debug;
+		};
+		DEDB03861C19D0AE00CD36DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ue5-Otten-SackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-SackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ue5-Otten-Sacker.app/Ue5-Otten-Sacker";
+			};
+			name = Release;
+		};
+		DEDB03881C19D0AE00CD36DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ue5-Otten-SackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-SackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ue5-Otten-Sacker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DEDB03891C19D0AE00CD36DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ue5-Otten-SackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dsacker.Ue5-Otten-SackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ue5-Otten-Sacker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDB03541C19D0AE00CD36DE /* Build configuration list for PBXProject "Ue5-Otten-Sacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB037F1C19D0AE00CD36DE /* Debug */,
+				DEDB03801C19D0AE00CD36DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB03811C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-Sacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB03821C19D0AE00CD36DE /* Debug */,
+				DEDB03831C19D0AE00CD36DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB03841C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-SackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB03851C19D0AE00CD36DE /* Debug */,
+				DEDB03861C19D0AE00CD36DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB03871C19D0AE00CD36DE /* Build configuration list for PBXNativeTarget "Ue5-Otten-SackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB03881C19D0AE00CD36DE /* Debug */,
+				DEDB03891C19D0AE00CD36DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDB03511C19D0AE00CD36DE /* Project object */;
+}
